@@ -189,6 +189,49 @@
     font-size: 1.2rem;
 }
 
+/* join section related styles */
+.join {
+  background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.join-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Noto Serif", serif;
+  color: white;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.join-input {
+  padding: 16px 20px;
+  font-size: 1rem;
+  border: none;
+  flex: 1;
+  max-width: 500px;
+  outline: none;
+}
+
+.join-button {
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  padding: 16px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
 
 
 
