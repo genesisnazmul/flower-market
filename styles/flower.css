@@ -272,7 +272,7 @@
 
 /* join section related styles */
 .join {
-    background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+    background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
     background-size: cover;
     background-position: center;
     padding: 80px 20px;
