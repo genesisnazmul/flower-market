@@ -189,111 +189,193 @@
     font-size: 1.2rem;
 }
 
+/* latest deals related styles */
+.latest-deals {
+    max-width: 1140px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.latest-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.latest-subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.deal-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.deal-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.deal-card {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+
+}
+
+.deal-card.small {
+    height: 180px;
+    border-radius: 14px;
+}
+
+.deal-card.large {
+    flex: 2;
+    height: 380px;
+    border-radius: 22px;
+}
+
+.deal-content {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.deal-content h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.deal-content a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+
+
+
+
 /* join section related styles */
 .join {
-  background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
-  background-size: cover;
-  background-position: center;
-  padding: 80px 20px;
-  text-align: center;
-  color: white;
+    background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
 }
 
 .join-title {
-  font-size: 2.8rem;
-  font-weight: bold;
-  margin-bottom: 30px;
-  font-family: "Noto Serif", serif;
-  color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Noto Serif", serif;
+    color: white;
 }
 
 .join-form {
-  display: flex;
-  justify-content: center;
-  max-width: 700px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .join-input {
-  padding: 16px 20px;
-  font-size: 1rem;
-  border: none;
-  flex: 1;
-  max-width: 500px;
-  outline: none;
+    padding: 16px 20px;
+    font-size: 1rem;
+    border: none;
+    flex: 1;
+    max-width: 500px;
+    outline: none;
 }
 
 .join-button {
-  background-color: rgba(233, 90, 8, 1);
-  color: white;
-  padding: 16px 30px;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    padding: 16px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
+
 /* footer related styles  */
 .footer {
-  background-color: #f9f9f9;
-  padding: 60px 20px;
-  
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+
 }
 
 .footer-container {
-  max-width: 1140px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .footer-column {
-  flex: 1;
-  min-width: 180px;
+    flex: 1;
+    min-width: 180px;
 }
 
 .footer-logo {
-  width: 140px;
-  margin-bottom: 15px;
+    width: 140px;
+    margin-bottom: 15px;
 }
 
 .footer-description {
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 1rem;
-  line-height: 1.6;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .footer-links {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footer-links li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 1rem;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: rgba(233, 90, 8, 1);
+    color: rgba(233, 90, 8, 1);
 }
 
 .footer-socials {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-  margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
 }
 
 .social-icon {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -322,8 +404,11 @@
 
     .plants-container {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 20px;
         padding: 0 10px;
-        gap: 16px;
+        justify-content: center;
+
 
     }
 
@@ -338,5 +423,11 @@
         padding-right: 20px;
     }
 
+    .deal-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
 }
+
