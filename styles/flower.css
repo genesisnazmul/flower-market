@@ -91,3 +91,21 @@
 .banner-description {
     margin-top: 13px;
 }
+
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .nav-media{
+        display: none;
+    }
+    .div1{
+        width: 100%;
+    }
+    
+}
