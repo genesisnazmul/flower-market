@@ -232,6 +232,71 @@
   border: none;
   cursor: pointer;
 }
+/* footer related styles  */
+.footer {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-logo {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: rgba(233, 90, 8, 1);
+}
+
+.footer-socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+}
+
+
 
 
 
